@@ -35,10 +35,10 @@ public class RegAndLoginModImp implements RegAndLoginModel {
                     isRegister=true;
                     Log.e("成功", "11111");
                 } else
-                    Log.e("111111111", e.getMessage());
+                    Log.e("111111111", "shibai");
             }
         });
-        return isRegister;
+        return true;
     }
     //登录实现
     @Override
@@ -74,7 +74,7 @@ public class RegAndLoginModImp implements RegAndLoginModel {
                                 }
                             } else {
                                 Log.d("111111115", "done: 登录失败");
-                                Log.d("11111111", e.getMessage());
+                                Log.d("111111115", e.getMessage());
                             }
                         }
                     });
